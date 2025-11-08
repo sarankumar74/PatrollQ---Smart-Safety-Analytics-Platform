@@ -156,21 +156,23 @@ Below are key pages of the platform:
 ### 🧭 1. Dashboard Overview
 Displays key metrics, total incidents, and safety insights.
 
-![Dashboard Screenshot](./assets/ui_dashboard.png)
+![Dashboard Screenshot](<img width="1916" height="974" alt="image" src="https://github.com/user-attachments/assets/6d54aa3f-756b-426b-a563-f5cd7c115a75" />)
 
 ---
 
 ### 🗺️ 2. Crime Hotspot Map
 Visualizes geographic clustering and identifies high-risk zones.
 
-![Crime Hotspot Map](./assets/crime_hotspot_map.png)
+![Crime Hotspot Map](<img width="1887" height="932" alt="Screenshot 2025-11-08 131015" src="https://github.com/user-attachments/assets/a0b936fd-8c9e-40d7-8b82-bb2c59a295c3" />
+)
 
 ---
 
 ### ⏰ 3. Temporal Pattern Analysis
 Shows time-based crime trends, including peak hours and seasonal variations.
 
-![Temporal Analysis](./assets/temporal_analysis.png)
+![Temporal Analysis](<img width="1919" height="1079" alt="Screenshot 2025-11-08 130930" src="https://github.com/user-attachments/assets/3384cb09-862f-47a0-beed-a1599cb83f3e" />
+)
 
 ---
 
@@ -181,31 +183,22 @@ Shows time-based crime trends, including peak hours and seasonal variations.
 
 PatrolIQ/
 │
-├── data/
-│   ├── chicago_crime_data.csv           # Main dataset (7.8M records)
-│   ├── processed/                       # Cleaned and feature-engineered data
-│   └── reports/                         # EDA results and business insights
+├── clustering/
+│   ├── clusters_main.ipynb        
 │
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb      # Data cleaning and preprocessing
-│   ├── 02_eda_visualization.ipynb       # Exploratory Data Analysis and visuals
-│   ├── 03_feature_engineering.ipynb     # Feature creation and transformations
-│   ├── 04_clustering_models.ipynb       # K-Means, DBSCAN, Hierarchical clustering
-│   └── 05_mlflow_tracking.ipynb         # MLflow tracking and experiment logging
+├── patrollq_eda/
+│   ├── patrollq_eda.ipynb     
 │
-├── models/
-│   ├── kmeans/                          # Saved K-Means clustering models
-│   ├── dbscan/                          # Saved DBSCAN models
-│   └── hierarchical/                    # Hierarchical clustering outputs
 │
-├── app/
-│   ├── streamlit_app.py                 # Streamlit web application
+├── app.py                 
 │
-├── assets/
-│   ├── ui_dashboard.png                 # Screenshot – main dashboard
-│   ├── crime_hotspot_map.png            # Screenshot – crime heatmap visualization
-│   ├── temporal_analysis.png            # Screenshot – time-based analysis
+├── plots/
+│   ├── Cluster Visual by Month, Day                 
+│   ├── Clusters by Longitude, Latitude, Behavioral + Spatial Crime          
+│   ├── Clusters Visuals by Ward-Community
+│   ├── Crime Cluster Centers (Latitude & Longitude)
+│   ├── Spatio-Temporal Crime Clusters (Location-based)
+│   ├── X Coordinate, Y Coordinate, Month, Year, Day
 │
-├── requirements.txt                     # Python dependencies
-├── MLproject                            # MLflow configuration file
-└── README.md                            # Project documentation
+├── requirements.txt                     
+
