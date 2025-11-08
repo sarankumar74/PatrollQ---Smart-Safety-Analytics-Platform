@@ -156,7 +156,8 @@ Below are key pages of the platform:
 ### 🧭 1. Dashboard Overview
 Displays key metrics, total incidents, and safety insights.
 
-![Dashboard Screenshot](C:\Users\saran\OneDrive\Desktop\PatrollQ\Crime Hotspot Map.png)
+![Dashboard Screenshot](<img width="1916" height="974" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/f5c341ff-dcc5-4888-bd1b-3d70ab5d43b5" />
+)
 ---
 
 ### 🗺️ 2. Crime Hotspot Map
