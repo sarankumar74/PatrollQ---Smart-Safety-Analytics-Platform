@@ -163,7 +163,7 @@ Below are key pages of the platform:
 ### 🧭 1. Dashboard Overview
 Displays key metrics, total incidents, and safety insights.
 
-![Chicago Dashboard]<https://github.com/user-attachments/assets/b3d0df87-2969-42a7-9dc0-562cc533f955>
+![Chicago Dashboard](https://github.com/user-attachments/assets/b3d0df87-2969-42a7-9dc0-562cc533f955)
 
 ---
 
