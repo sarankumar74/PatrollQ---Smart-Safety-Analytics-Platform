@@ -180,6 +180,7 @@ Shows time-based crime trends, including peak hours and seasonal variations.
 
 ---
 🧩 **Project Structure**
+```bash
 
 PatrolIQ/
 │
