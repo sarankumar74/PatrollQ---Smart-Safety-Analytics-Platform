@@ -156,7 +156,8 @@ Below are key pages of the platform:
 ### 🧭 1. Dashboard Overview
 Displays key metrics, total incidents, and safety insights.
 
-![Dashboard Screenshot](<img width="1916" height="974" alt="image" src="https://github.com/user-attachments/assets/6d54aa3f-756b-426b-a563-f5cd7c115a75" />)
+![Dashboard Screenshot](<img width="1916" height="974" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/ee06d611-7a40-408b-8948-911c1c78ad75" />
+)
 
 ---
 
