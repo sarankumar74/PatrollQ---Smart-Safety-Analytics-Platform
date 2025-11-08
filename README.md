@@ -1,10 +1,18 @@
 # 🚔 PatrolIQ - Smart Safety Analytics Platform
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red?logo=streamlit&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Concept-Machine%20Learning-green)
+![Public Data](https://img.shields.io/badge/Data-Original%20Public%20Data-orange)
+![Clustering](https://img.shields.io/badge/Clustering-KMeans%2C%20DBSCAN%2C%20Hierarchical-yellow)
+![Domain](https://img.shields.io/badge/Domain-Safety%2C%20Police%2C%20Chicago%20Crime%20Analysis-purple)
+
+
 > Empowering law enforcement and city administrators with data-driven insights for safer urban communities.
 
 ---
 
-## 🧠 Problem Statement
+## 📘 Problem Statement
 
 Urban areas face significant challenges in efficient police deployment and crime prevention due to the lack of actionable insights from massive crime datasets.  
 
@@ -142,12 +150,11 @@ Evaluation Metrics:
 - 🗺️ Interactive crime hotspot map  
 - ⏰ Temporal crime pattern charts  
 - 📊 Real-time crime statistics dashboard  
-- 🧠 ML experiment tracking with MLflow  
 - 🌐 Accessible deployment for law enforcement stakeholders  
 
 ---
 
-## 🖼️ User Interface Overview
+<summary>📸 Click to view Streamlit UI screenshots</summary>
 
 PatrolIQ’s **Streamlit dashboard** provides an intuitive interface for exploring real-time urban safety analytics.  
 
@@ -156,21 +163,21 @@ Below are key pages of the platform:
 ### 🧭 1. Dashboard Overview
 Displays key metrics, total incidents, and safety insights.
 
-![Dashboard Screenshot](<img width="1916" height="974" alt="Dashboard Overview" src="https://github.com/user-attachments/assets/f5c341ff-dcc5-4888-bd1b-3d70ab5d43b5" />
-)
+![Chicago Dashboard]<https://github.com/user-attachments/assets/b3d0df87-2969-42a7-9dc0-562cc533f955>
+
 ---
 
 ### 🗺️ 2. Crime Hotspot Map
 Visualizes geographic clustering and identifies high-risk zones.
 
-![Crime Hotspot Map](<img width="1887" height="932" alt="Screenshot 2025-11-08 131015" src="https://github.com/user-attachments/assets/a0b936fd-8c9e-40d7-8b82-bb2c59a295c3"/>)
+![Crime Hotspot Map](https://github.com/user-attachments/assets/a0b936fd-8c9e-40d7-8b82-bb2c59a295c3)
 
 ---
 
 ### ⏰ 3. Temporal Pattern Analysis
 Shows time-based crime trends, including peak hours and seasonal variations.
 
-![Temporal Analysis](<img width="1919" height="1079" alt="Screenshot 2025-11-08 130930" src="https://github.com/user-attachments/assets/3384cb09-862f-47a0-beed-a1599cb83f3e"/>
+![Temporal Analysis](https://github.com/user-attachments/assets/0584cbed-5488-4318-be6b-1564d87dacd4
 )
 
 ---
