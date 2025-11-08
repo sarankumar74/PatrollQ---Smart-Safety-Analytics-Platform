@@ -177,16 +177,35 @@ Shows time-based crime trends, including peak hours and seasonal variations.
 > All visualizations are **interactive** and powered by **Streamlit**, **Plotly**, and **Scikit-learn**.
 
 ---
+🧩 **Project Structure**
 
-## 📦 Installation & Setup
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/PatrolIQ.git
-cd PatrolIQ
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run Streamlit app
-streamlit run app.py
+PatrolIQ/
+│
+├── data/
+│   ├── chicago_crime_data.csv           # Main dataset (7.8M records)
+│   ├── processed/                       # Cleaned and feature-engineered data
+│   └── reports/                         # EDA results and business insights
+│
+├── notebooks/
+│   ├── 01_data_preprocessing.ipynb      # Data cleaning and preprocessing
+│   ├── 02_eda_visualization.ipynb       # Exploratory Data Analysis and visuals
+│   ├── 03_feature_engineering.ipynb     # Feature creation and transformations
+│   ├── 04_clustering_models.ipynb       # K-Means, DBSCAN, Hierarchical clustering
+│   └── 05_mlflow_tracking.ipynb         # MLflow tracking and experiment logging
+│
+├── models/
+│   ├── kmeans/                          # Saved K-Means clustering models
+│   ├── dbscan/                          # Saved DBSCAN models
+│   └── hierarchical/                    # Hierarchical clustering outputs
+│
+├── app/
+│   ├── streamlit_app.py                 # Streamlit web application
+│
+├── assets/
+│   ├── ui_dashboard.png                 # Screenshot – main dashboard
+│   ├── crime_hotspot_map.png            # Screenshot – crime heatmap visualization
+│   ├── temporal_analysis.png            # Screenshot – time-based analysis
+│
+├── requirements.txt                     # Python dependencies
+├── MLproject                            # MLflow configuration file
+└── README.md                            # Project documentation
